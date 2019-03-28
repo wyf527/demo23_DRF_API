@@ -27,3 +27,6 @@ class Movie(models.Model):
 
     def __str__(self):
         return self.mname
+
+class stu(models.Model):
+    Sname=models.CharField(max_length=30)
